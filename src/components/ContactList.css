@@ -1,0 +1,118 @@
+body{
+    
+    background-color: #191970;
+}
+
+/* For h1 */
+.heading {
+    margin-left: 40%;
+    color: #24a0de;
+ }
+
+ /* For adForm div */
+.addForm{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 80%;
+    margin-left: 10% ;
+}
+
+/* input field  properties */
+.addForm input{
+    width:300px;
+    height: 25px;
+    border-radius: 4px;
+    border-color: #24a0de;
+    outline: none;
+    text-align: center;
+    
+}
+/* to change the placeholder text color */
+.addForm ::placeholder{
+    color: #24a0de;
+}
+
+/* adForm button */
+.addForm button{
+    background-color: #24a0de;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: bolder;
+    
+}
+
+/* Table of contact */
+.table {
+    background-color: #A7C7E7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+/* Table button for delete and update */
+.table button{
+    width: 80px;
+    height: 40px;
+    appearance:  none;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+/*  The tr that will show/hide our content */
+.table button  img {
+    height: 20px;
+    width:  auto;
+}
+
+/* table padding */
+.table  table td, th{
+    padding:10px;
+}
+
+/* table color */
+.table tr:nth-child(even),th {
+    background-color: #89CFF0;
+  }
+
+.table tr:nth-child(odd) {
+    background-color:#A7C7E7;
+  }
+
+
+
+/* For update form */
+.updateForm{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+/* css for input */
+.updateForm input{
+    width: 200px;
+    height: 25px;
+    border-color:#24cbde;
+    border-radius: 4px;
+    outline: none; 
+    text-align: center ; 
+}
+
+/* placeholder */
+.updateForm ::placeholder{
+    color: #24a0de;
+}
+
+/* for button */
+.updateForm button{
+    background-color: #24a0de;
+    border-radius: 4px;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+}
