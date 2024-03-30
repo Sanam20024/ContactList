@@ -62,6 +62,7 @@ export const AuthProvider=({children})=>{
       .then((response) => response.json())
       .then((data) => {
         setContacts(preContact =>[data ,...preContact]);
+          alert("Added Successfully");
       })
       .catch(error =>console.log("Error contacting contact" , error));
     
@@ -83,6 +84,7 @@ export const AuthProvider=({children})=>{
             }
             const updateResult=contacts.filter(item=> item.id !== id);
          setContacts(updateResult);
+          alert("Contact Deleted");   
          })
          .catch(error=>console.log("Error deleting contact",error));
          
